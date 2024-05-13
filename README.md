@@ -1,8 +1,8 @@
 # Restaurant-Chat-Bot-Tkinter
 # CHATBOT APPLICATION
-We use NLP along with Pythorch to train our chatbot  
+I have used NLP along with Pythorch to train our chatbot  
 JSON file will be used to train our model for chatbot.(Contextual Chatbots with Tensorflow)  
-We have various pattern tags  
+i have used various pattern tags  
 The conversation need not be the same words that need to be put as the same  
   
 # CONCEPTS  
