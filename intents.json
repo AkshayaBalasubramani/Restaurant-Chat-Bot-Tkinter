@@ -1,0 +1,529 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello",
+          "Good morning!",
+          "Hey! Good morning",
+          "Hey there",
+          "Hey Janet",
+          "Very good morning",
+          "A very good morning to you",
+          "Greeting",
+          "Greetings to you",
+          "Morning",
+          "Hi there",
+          "Good day",
+          "Hey, how are you?"
+        ],
+        "responses": [
+          "Hello! I'm Restrobot. How can I help you today?",
+          "Hi there! I'm Restrobot. What can I do for you?",
+          "Hey! Welcome to Restrobot. How may I assist you?",
+          "Good morning! I'm Restrobot. What brings you here today?",
+          "Hey Janet! How can I assist you today?",
+          "Good morning! Welcome to Restrobot. How may I be of service?",
+          "Hello! How can I assist you?",
+          "Hey! How's your day going? How can I assist you?",
+          "Hi! How can I assist you today?",
+          "Greetings! I'm Restrobot. How may I help you?",
+          "Hello there! Welcome to Restrobot. What can I do for you?",
+          "Good day! How can I assist you?",
+          "Hey! How's everything? How can I help you today?"
+        ]
+    }, 
+    {
+        "tag": "work",
+        "patterns": [
+          "What do you do?",
+          "What's your job?",
+          "Can you tell me about your role?",
+          "What is your purpose?",
+          "What are you designed for?"
+        ],
+        "responses": [
+          "I'm here to assist you as a virtual assistant. You can ask me questions, seek information, or request help with various tasks.",
+          "My role is to provide support and assistance to users like you. Feel free to ask me anything you need help with.",
+          "I'm designed to help users by providing information, answering questions, and assisting with tasks. How can I assist you today?",
+          "My purpose is to make your life easier by providing information and assistance whenever you need it. Feel free to ask me anything!"
+        ]
+      },      
+    {
+        "tag": "book_table",
+        "patterns": [
+          "Book a table",
+          "Can I book a table?",
+          "I want to book a table",
+          "Book seat",
+          "I want to book a seat",
+          "Can I book a seat?",
+          "Could you help me book a table",
+          "Can I reserve a seat?",
+          "I need a reservation",
+          "Can you help me with a reservation",
+          "Can I book a reservation",
+          "Can i have a table?",
+          "Help me reserve a table",
+          "book table",
+          "Table reservation",
+          "Table booking",
+          "Reserve a table",
+          "I'd like to make a reservation",
+          "Can I make a booking?",
+          "Table for [number] people",
+          "Reservation for [number] people"
+        ],
+        "responses": [
+          "Sure, that can be done.",
+          "Of course, I can assist you with that.",
+          "Absolutely, let's get that table booked for you.",
+          "Certainly, I'll help you secure a reservation.",
+          "Yes, I can arrange a table for you. May I know the date and time?"
+        ]
+    },
+    {
+        "tag": "book_table_booking",
+        "patterns": [
+          "Then reserve a seat today",
+          "I'd like to make a booking today",
+          "Book a table for today",
+          "Reserve a table for today",
+          "I want to book a table for today"
+        ],
+        "responses": [
+          "It's completed.",
+          "Your booking has been confirmed.",
+          "Reservation done. Enjoy your meal!",
+          "Seat reserved! We look forward to serving you.",
+          "All set! Your table is booked for today."
+        ]
+      },
+      
+      {
+        "tag": "available_tables",
+        "patterns": [
+          "How many seats are available?",
+          "Available seats",
+          "How many tables are available?",
+          "Available tables",
+          "Are there any tables available?",
+          "What is the capacity of the restaurant",
+          "Are there any available tables?",
+          "Are there any seats left?",
+          "I wanted to know if there are any tables available now",
+          "May I know if you have any tables which I can book?"
+        ],
+        "responses": [
+          "Let me check for you.",
+          "Just a moment, I'll find that out.",
+          "I'll check the availability for you.",
+          "One moment please, I'll see what's available.",
+          "Sure, let me look into that for you.",
+          "I'll check on the current availability."
+        ]
+    },
+      
+    {
+        "tag": "goodbye",
+        "patterns": [
+          "cya",
+          "I will leave now",
+          "See you later",
+          "Goodbye",
+          "Leaving now, Bye",
+          "Good bye dear",
+          "Bye dear",
+          "I am Leaving",
+          "Have a Good day",
+          "cya later",
+          "I gotta go now",
+          "I gotta rush now",
+          "Thank you, bye",
+          "Bye",
+          "Ok Bye",
+          "Okay goodnight",
+          "Have a good day ahead",
+          "Have a great day",
+          "Tata",
+          "Take care"
+        ],
+        "responses": [
+          "It's been my pleasure serving you!",
+          "Hope to see you again soon! Goodbye!",
+          "Bye! Hope to see you again!",
+          "Take care! Goodbye!",
+          "Have a great day ahead!",
+          "Goodbye! Take care!"
+        ]
+    },
+      
+    {
+        "tag": "identity",
+        "patterns": [
+          "what is your name",
+          "what should I call you",
+          "whats your name?",
+          "who are you",
+          "Are you human?",
+          "Am i talking to a bot",
+          "Are you a bot",
+          "Can i have your name please",
+          "name"
+        ],
+        "responses": [
+          "You can call me Restrobot.",
+          "I'm Restrobot!",
+          "I'm Restrobot.",
+          "My name is Restrobot.",
+          "Restrobot at your service!",
+          "I go by the name Restrobot.",
+          "Restrobot, pleased to meet you."
+        ]
+    },
+      
+    {
+        "tag": "hours",
+        "patterns": [
+          "when are you guys open",
+          "what are your hours",
+          "hours of operation",
+          "hours",
+          "what is the timing",
+          "when are you open",
+          "Are you open on all days?",
+          "are you open now",
+          "are you open on holidays",
+          "are you guys open on all weekdays?",
+          "working hours",
+          "what are your working hours?"
+        ],
+        "responses": [
+          "We are open from 10:00 AM to 12:00 AM, Monday to Friday."
+        ]
+    },
+      
+    {
+      "tag": "menu",
+      "patterns": [
+          "I'd like to order something",
+          "What's on the menu?",
+          "Could I get something to eat?",
+          "I'm damn hungry!",
+          "I am hungry.",
+          "Show me the menu.",
+          "What food do you have?",
+          "What food are you offering?",
+          "What's on the menu today?",
+          "Let me see the menu.",
+          "Menu",
+          "What dishes do you offer?",
+          "Any specials on the menu?",
+          "What are your best-selling items?",
+          "Do you have any recommendations?",
+          "Can I take a look at your offerings?",
+          "Are there vegetarian options on the menu?",
+          "Are there vegan options available?",
+          "Do you have gluten-free options?",
+          "Are there any discounts or deals on the menu?"
+      ],
+      "responses": [
+        "Sure, here's our menu:Appetizers\nCrispy Calamari with Tangy Aioli,Caprese Salad with Fresh Mozzarella, Tomatoes, and Basil,Creamy Lobster Bisque,Zesty Buffalo Wings,Spinach and Artichoke Dip\n Main Courses:\nGrilled Salmon with Lemon Butter Sauce,Beef Tenderloin with Garlic Mashed Potatoes,Chicken Parmesan with Spaghetti Marinara,Vegetable Stir-Fry with Tofu,Ribeye Steak Cooked to Perfection\n",
+        "Of course! Let me show you what we have:Appetizers\nCrispy Calamari with Tangy Aioli,Caprese Salad with Fresh Mozzarella, Tomatoes, and Basil,Creamy Lobster Bisque,Zesty Buffalo Wings,Spinach and Artichoke Dip\nMain Courses:\nGrilled Salmon with Lemon Butter Sauce,Beef Tenderloin with Garlic Mashed Potatoes,Chicken Parmesan with Spaghetti Marinara,Vegetable Stir-Fry with Tofu,Ribeye Steak Cooked to Perfection\n ",
+        "Absolutely! Here are our available dishes:Appetizers\nCrispy Calamari with Tangy Aioli,Caprese Salad with Fresh Mozzarella, Tomatoes, and Basil,Creamy Lobster Bisque,Zesty Buffalo Wings,Spinach and Artichoke Dip\nMain Courses:\nGrilled Salmon with Lemon Butter Sauce,Beef Tenderloin with Garlic Mashed Potatoes,Chicken Parmesan with Spaghetti Marinara,Vegetable Stir-Fry with Tofu,Ribeye Steak Cooked to Perfection\n ",
+        "Great choice! Here's what's on the menu:Appetizers\nCrispy Calamari with Tangy Aioli,Caprese Salad with Fresh Mozzarella, Tomatoes, and Basil,Creamy Lobster Bisque,Zesty Buffalo Wings,Spinach and Artichoke Dip\nMain Courses:\nGrilled Salmon with Lemon Butter Sauce,Beef Tenderloin with Garlic Mashed Potatoes,Chicken Parmesan with Spaghetti Marinara,Vegetable Stir-Fry with Tofu,Ribeye Steak Cooked to Perfection\n ",
+        "We have a variety of options available. Take a look at our menu:Appetizers\nCrispy Calamari with Tangy Aioli,Caprese Salad with Fresh Mozzarella, Tomatoes, and Basil,Creamy Lobster Bisque,Zesty Buffalo Wings,Spinach and Artichoke Dip\nMain Courses:\nGrilled Salmon with Lemon Butter Sauce,Beef Tenderloin with Garlic Mashed Potatoes,Chicken Parmesan with Spaghetti Marinara,Vegetable Stir-Fry with Tofu,Ribeye Steak Cooked to Perfection\n",
+        "Hungry, aren't we? Here's what we have to offer:Appetizers\nCrispy Calamari with Tangy Aioli,Caprese Salad with Fresh Mozzarella, Tomatoes, and Basil,Creamy Lobster Bisque,Zesty Buffalo Wings,Spinach and Artichoke Dip\nMain Courses:\nGrilled Salmon with Lemon Butter Sauce,Beef Tenderloin with Garlic Mashed Potatoes,Chicken Parmesan with Spaghetti Marinara,Vegetable Stir-Fry with Tofu,Ribeye Steak Cooked to Perfection\n",
+        "Here's a glimpse of our menu:Appetizers\nCrispy Calamari with Tangy Aioli,Caprese Salad with Fresh Mozzarella, Tomatoes, and Basil,Creamy Lobster Bisque,Zesty Buffalo Wings,Spinach and Artichoke Dip\nMain Courses:\nGrilled Salmon with Lemon Butter Sauce,Beef Tenderloin with Garlic Mashed Potatoes,Chicken Parmesan with Spaghetti Marinara,Vegetable Stir-Fry with Tofu,Ribeye Steak Cooked to Perfection\n",
+        "Certainly! Here's what you can choose from:Appetizers\nCrispy Calamari with Tangy Aioli,Caprese Salad with Fresh Mozzarella, Tomatoes, and Basil,Creamy Lobster Bisque,Zesty Buffalo Wings,Spinach and Artichoke Dip\nMain Courses:\nGrilled Salmon with Lemon Butter Sauce,Beef Tenderloin with Garlic Mashed Potatoes,Chicken Parmesan with Spaghetti Marinara,Vegetable Stir-Fry with Tofu,Ribeye Steak Cooked to Perfection\n",
+        "We have discounts and deals available. Take a look at our menu for details:Appetizers\nCrispy Calamari with Tangy Aioli,Caprese Salad with Fresh Mozzarella, Tomatoes, and Basil,Creamy Lobster Bisque,Zesty Buffalo Wings,Spinach and Artichoke Dip\nMain Courses:\nGrilled Salmon with Lemon Butter Sauce,Beef Tenderloin with Garlic Mashed Potatoes,Chicken Parmesan with Spaghetti Marinara,Vegetable Stir-Fry with Tofu,Ribeye Steak Cooked to Perfection\n"
+      ]
+  },
+  {
+    "tag": "contact",
+    "patterns": [
+        "contact information",
+        "how do we contact you",
+        "how can i contact you",
+        "can i get the contact details",
+        "I wanna give some feedback",
+        "how can i give some feedback?",
+        "Can you give me the contact of an executive?",
+        "What is the help desk phone number?",
+        "Can you give me your number?",
+        "Can i get the customer care number?",
+        "Can I get help desk number?",
+        "Where can I find your contact information?",
+        "Do you have an email address for inquiries?",
+        "How do I reach out to your support team?",
+        "Is there a way to provide feedback?",
+        "I'd like to speak to someone from your team.",
+        "How can I get in touch with customer service?",
+        "What are your contact options?",
+        "How do I contact your restaurant for reservations?",
+        "Where can I find your contact details online?"
+    ],
+    "responses": [
+        "You can contact us at contact@aindrisrestro.com. Our help desk number is 87.",
+        "Feel free to reach out to us at contact@aindrisrestro.com or call our help desk at 87.",
+        "For any inquiries or feedback, please email us at contact@aindrisrestro.com or call our help desk at 87.",
+        "We're here to assist you! You can contact us at contact@aindrisrestro.com or call our help desk at 87.",
+        "You can reach our support team at contact@aindrisrestro.com or call us at 87 for any assistance.",
+        "Need assistance or want to provide feedback? Contact us at contact@aindrisrestro.com or call our help desk at 87.",
+        "Have questions or feedback? Contact us at contact@aindrisrestro.com or call our help desk at 87.",
+        "For executive contacts or help desk assistance, please email us at contact@aindrisrestro.com or call us at 87.",
+        "Our customer care number is 87. You can also email us at contact@aindrisrestro.com for inquiries.",
+        "Feel free to give us a call at 87 for any assistance or email us at contact@aindrisrestro.com.",
+        "To reach our help desk, call 87 or email us at contact@aindrisrestro.com.",
+        "You can find our contact information at contact@aindrisrestro.com. Our help desk number is 87."
+    ]
+},
+      
+{
+  "tag": "address",
+  "patterns": [
+      "What is the location?",
+      "What's the location?",
+      "Where are you located?",
+      "Where is the restaurant located?",
+      "Address",
+      "What's the address?",
+      "What is the address of the restaurant?",
+      "I am not able to locate you",
+      "I can't find your location",
+      "Can I have the address of the restaurant?",
+      "How to reach there?",
+      "Address?",
+      "What is the address of this restaurant?",
+      "Where can I find you?",
+      "Could you give me directions to the restaurant?",
+      "I'm lost. Can you provide your address?",
+      "Can you tell me your exact location?",
+      "How do I get to your restaurant?",
+      "What's the physical address of your establishment?"
+  ],
+  "responses": [
+      "You can locate us at Aindri's Restro, Phase 1, Rd Number 6, Whitefield, Bengaluru, Karnataka 560066",
+      "Our address is Aindri's Restro, Phase 1, Rd Number 6, Whitefield, Bengaluru, Karnataka 560066. Feel free to visit us!",
+      "We're located at Aindri's Restro, Phase 1, Rd Number 6, Whitefield, Bengaluru, Karnataka 560066. Come and dine with us!",
+      "You'll find us at Aindri's Restro, Phase 1, Rd Number 6, Whitefield, Bengaluru, Karnataka 560066. Looking forward to seeing you!"
+  ]
+},
+    {
+        "tag": "positive_feedback",
+        "patterns": [
+          "the noodles were amazing",
+          "i loved the food",
+          "you did a good job",
+          "Love the food",
+          "Really love it",
+          "Love the staff behavior",
+          "my son devoured the brownie!",
+          "pizza was so cheesy!",
+          "the food was great",
+          "perfectly baked",
+          "we are very satisfied with the service",
+          "the soup was a real game changer",
+          "such delicious flavours",
+          "so glad we discovered this place",
+          "Me and my family are very satisfied with this service and food",
+          "this place is awesome"
+        ],
+        "responses": [
+          "Thank you for your kind words! We strive to provide excellent service and food.",
+          "We're thrilled to hear that you enjoyed your experience with us!",
+          "Your feedback means a lot to us! We're glad you had a great time.",
+          "We're delighted that you loved our food and service! Thank you for your feedback."
+        ]
+    },
+      
+    {
+        "tag": "sanitation",
+        "patterns": [
+          "is it really safe to eat here?",
+          "Could you tell your COVID safety protocols?",
+          "I would like to know about the cleanliness of the restaurant",
+          "Please share your sanitization process",
+          "I am concerned about the COVID related sanitization",
+          "Is it safe to eat out in this pandemic?",
+          "are you clean",
+          "i am concerned about the cleanliness"
+        ],
+        "responses": [
+          "I understand your concern. Here are the WHO recommended COVID protocols we follow to ensure your safety: \n1. All our staff are double masked 24x7. \n2. All our staff is checked for fevers and other symptoms daily. \n3. All surfaces are frequently sanitized. \n4. We use this friendly bot to reduce physical closeness to the least!"
+        ]
+    },
+    {
+        "tag": "offers",
+        "patterns": [
+          "Could you tell me the pocket-friendly options?",
+          "Are there any discounts going on?",
+          "Are there any special offers today?",
+          "What about the festive offers?",
+          "Could you please tell me which foods are on discount?",
+          "are there any discounts",
+          "are there any discount offers",
+          "do you have any offers?",
+          "what are the offers going on?",
+          "what are the discounts available?"
+        ],
+        "responses": [
+          "Sure! We have several offers available.Crispy Calamari with Tangy Aioli Let me check the current discounts for you.",
+          "Yes, we have some great offers available. Let me provide you with the details.Crispy Calamari with Tangy Aioli.we can offer a student discount of 10% if you are student and birthday discount of 15%",
+          "we can offer a student discount of 10% if you are student and birthday discount of 15%",
+          "Absolutely! We always have special offers for our customers. Let me find out the current ones for you,Crispy Calamari with Tangy Aioli",
+          "Certainly! We have various discounts and offers. Let me check what's available today.Crispy Calamari with Tangy Aioli, we can offer a student discount of 10% if you are student and birthday discount of 15%",
+          "Of course! We offer discounts on selected items. Let me check the current offerings for you.Crispy Calamari with Tangy Aioli, we can offer a student discount of 10% if you are student and birthday discount of 15%"
+        ]
+    },
+    {
+        "tag": "vegan_enquiry",
+        "patterns": [
+            "Can I see the vegan options?",
+            "Do you have any vegan options?",
+            "What is vegan in your menu?",
+            "I am vegan.",
+            "Do you also have vegan food?",
+            "Vegan",
+            "Is this restaurant vegan?",
+            "Is this place vegan?",
+            "Are there any plant-based dishes?",
+            "Are there vegan-friendly choices available?",
+            "I'm looking for vegan meals",
+            "Do you offer solely vegan options?",
+            "Are your dishes free from animal products?",
+            "I'm interested in vegan cuisine, what do you have?",
+            "Can you recommend some vegan dishes?"
+        ],
+        "responses": [
+            "Certainly! Here are our vegan options: Vegan Pad Thai, Lentil Shepherd's Pie, and Vegan Sushi Rolls.",
+            "Of course! We have a variety of vegan dishes available: Try our Vegan Chili, Chickpea Curry, or Tofu Scramble.",
+            "Absolutely! Let me show you our vegan menu items: Our Vegan Buddha Bowl, Vegan Mushroom Stroganoff, and Lentil Soup.",
+            "Great! We cater to vegans, and we have a wide selection of vegan dishes for you: How about our Vegan Falafel Wrap, Vegan Mushroom Risotto, or Vegan Tacos?",
+            "Yes, we offer vegan options. Here are some: Our Vegan Quinoa Salad, Vegan Stir-Fry, and Vegan Pizza.",
+            "Yes, we have vegan options. Would you like to see our selection? We have the Vegan Chickpea Salad, Vegan Lentil Soup, and Vegan Tofu Stir-Fry.",
+            "Yes, this restaurant offers vegan options. Here they are: Our Vegan Pad Thai, Vegan Burger, and Vegan Burrito.",
+            "Yes, this place offers vegan dishes. Let me show you: Try our Vegan Curry, Vegan Pho, and Vegan Caesar Salad.",
+            "Yes, we have plant-based dishes available. Here are some vegan options: Vegan Black Bean Burger, Vegan Pasta Primavera, and Vegan Coconut Curry.",
+            "Certainly! Our menu includes vegan meals for you to enjoy: How about our Vegan Quinoa Bowl, Vegan Lentil Salad, or Vegan Stir-Fry?",
+            "Yes, all our dishes are vegan-friendly. Here are some options: Vegan Chickpea Salad, Vegan Ratatouille, and Vegan Tofu Scramble.",
+            "We have several delicious vegan dishes on our menu. Would you like some recommendations? Our Vegan Falafel Wrap, Vegan Spaghetti Aglio e Olio, and Vegan Pad Thai are highly recommended.",
+            "Sure! Here are some of our popular vegan dishes we recommend: Our Vegan Vegetable Curry, Vegan Sweet Potato Hash, and Vegan Sushi Platter are excellent choices.",
+            "Yes, we do. Let me provide you with our vegan menu: Our menu includes dishes like the Vegan Quinoa Salad, Vegan Eggplant Parmesan, and Vegan Stir-Fry.",
+            "Yes, our dishes are free from animal products. Would you like to try some vegan options? Our Vegan Tofu Bowl, Vegan Lentil Soup, and Vegan Stir-Fry are delicious choices.",
+            "We have a range of vegan cuisine. Here are some of our popular choices: Our Vegan Burrito Bowl, Vegan Stuffed Peppers, and Vegan Curry are customer favorites."
+        ]
+    },    
+    {
+        "tag": "veg_enquiry",
+        "patterns": [
+            "Can I see the vegetarian options?",
+            "Do you have any vegetarian options?",
+            "Please show me your best vegetarian foods",
+            "I don't want to eat non-veg",
+            "I am vegetarian",
+            "Vegeterian",
+            "Is this place vegetarian?",
+            "Are there any vegan dishes available?",
+            "Do you offer plant-based options?",
+            "I'm looking for meat-free choices",
+            "Are your dishes suitable for vegetariansa",
+            "What vegetarian dishes do you recommend?",
+            "Can you suggest some vegan-friendly options?",
+            "Do you have a separate vegetarian menu?",
+            "Are the ingredients in this dish vegetarian-friendly?",
+            "I'm interested in vegetarian cuisine, what do you have?"
+        ],
+        "responses": [
+            "Certainly! Here are our delicious vegetarian options: Our signature Vegetable Curry, Spinach and Ricotta Ravioli, and Grilled Portobello Mushroom.",
+            "Of course! We have a variety of vegetarian dishes available: Try our Lentil Soup, Quinoa Salad, or Stuffed Bell Peppers.",
+            "Absolutely! Let me show you our top vegetarian picks: Our Eggplant Parmesan, Veggie Stir-Fry, and Roasted Vegetable Platter.",
+            "No problem! We have plenty of vegetarian options to choose from: Our Black Bean Burger, Veggie Wrap, and Caprese Salad are popular choices.",
+            "Great! We cater to vegetarians, and we have a wide selection of dishes for you: How about our Mushroom Risotto, Veggie Pizza, or Tofu Stir-Fry?",
+            "Yes, we offer vegetarian options. Here are some: Our Spinach and Feta Tart, Falafel Wrap, and Veggie Burger.",
+            "Yes, we have vegetarian options. Would you like to see our selection? We have the Beetroot and Goat Cheese Salad, Quinoa Stuffed Peppers, and Mushroom Risotto.",
+            "Yes, we offer a range of vegan dishes. Let me show you: Our Vegan Pad Thai, Chickpea Curry, and Tofu Scramble are popular choices.",
+            "Yes, we have plant-based options. Here are some of our vegan dishes: Try our Vegan Chili, Lentil Shepherd's Pie, and Vegan Sushi Rolls.",
+            "Certainly! Our menu includes meat-free choices for you to enjoy: Have you tried our Sweet Potato and Black Bean Enchiladas, Grilled Veggie Skewers, or Veggie Paella?",
+            "Yes, all our dishes are suitable for vegetarians. Here are some options: Our Quinoa Salad Bowl, Roasted Vegetable Pasta, and Veggie Spring Rolls are delicious choices.",
+            "We have several delicious vegetarian dishes on our menu. Would you like some recommendations? Our Butternut Squash Soup, Veggie Quesadillas, and Caprese Panini are highly recommended.",
+            "Sure! Here are some vegan-friendly options we recommend: Our Vegan Buddha Bowl, Falafel Salad, and Vegan Mushroom Stroganoff are excellent choices.",
+            "Yes, we do. Let me provide you with our vegetarian menu: Our menu includes dishes like the Spaghetti Aglio e Olio, Vegetarian Pad Thai, and Tofu Teriyaki.",
+            "Yes, the ingredients in this dish are vegetarian-friendly. Would you like to try it? Our Lentil and Vegetable Curry is a popular vegetarian option.",
+            "We have a range of vegetarian cuisine. Here are some of our popular choices: Our Vegetable Stir-Fry, Vegetarian Chili, and Spinach and Ricotta Stuffed Shells are customer favorites."
+        ]
+    },    
+    {
+        "tag": "recipe_enquiry",
+        "patterns": [
+            "Could you tell me more about the recipe of this dish?",
+            "What is the recipe of this dish?",
+            "What are the ingredients of this dish?",
+            "Tell me the recipe",
+            "How do I make this dish?",
+            "Can you provide the cooking instructions?",
+            "I'd like to learn how to cook this dish.",
+            "Do you have the step-by-step instructions for this recipe?",
+            "Can you explain how to prepare this dish?",
+            "I'm curious about the cooking method for this dish."
+        ],
+        "responses": [
+            "Certainly! Here's the recipe for that dish: [Recipe content goes here]",
+            "Of course! Here are the ingredients and steps for the recipe: [Recipe content goes here]",
+            "Sure thing! Let me share the recipe with you: [Recipe content goes here]",
+            "Absolutely! Here's how you can make this dish: [Recipe content goes here]",
+            "Sure, here's a breakdown of the recipe for you: [Recipe content goes here]",
+            "No problem! Here's what you'll need and how to make it: [Recipe content goes here]"
+        ]
+    },    
+    {
+        "tag": "suggest",
+        "patterns": [
+            "what do you recommend?",
+            "do you have any suggestions",
+            "please suggest something",
+            "why don't you recommend me a dish",
+            "help me choose what to order",
+            "Surprise me!",
+            "Do you have any special recommendations for me?",
+            "What do you suggest?",
+            "what is your suggestion",
+            "what is a must try",
+            "what should i try",
+            "what should i eat?",
+            "tell me what to order",
+            "tell me what i should buy",
+            "recommend me a dish",
+            "suggest me a dish"
+        ],
+        "responses": [
+            "Certainly! Here are some recommendations for you:",
+                    "Crispy Calamari with Tangy Aioli",
+                    "Caprese Salad with Fresh Mozzarella, Tomatoes, and Basil",
+                    "Creamy Lobster Bisque",
+                    "Zesty Buffalo Wings",
+                    "Spinach and Artichoke Dip"
+                ]
+    },
+    {
+        "tag": "general",
+        "patterns": [
+          "okay",
+          "sure",
+          "cool",
+          "hmm",
+          "fine",
+          "thanks",
+          "uhuh"
+        ],
+        "responses": [
+          ":)",
+          "Glad to serve you!",
+          "Happy to help!",
+          "Always happy to assist you!"
+        ]
+      }
+      
+]
+}
