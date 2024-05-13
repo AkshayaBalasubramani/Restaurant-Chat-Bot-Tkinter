@@ -2,7 +2,7 @@
 # CHATBOT APPLICATION
 I have used NLP along with Pythorch to train our chatbot  
 JSON file will be used to train our model for chatbot.(Contextual Chatbots with Tensorflow)  
-i have used various pattern tags  
+I have used various pattern tags  
 The conversation need not be the same words that need to be put as the same  
   
 # CONCEPTS  
@@ -40,8 +40,8 @@ Sentence
        \/   
 X[0,0,1,1,0,1]   
    
-For this process we use a NLTK library toolkit   
-For training we make use of Pycharm Deep Learning library   
+For this process I have used a NLTK library toolkit   
+For training I have made use of Pycharm Deep Learning library   
 
    
 
